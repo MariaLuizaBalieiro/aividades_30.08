@@ -5,21 +5,22 @@
 }
 body{
     height: 100vh;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .item-conteiner{
-    background-color: #f4f4f4;
+   
     border-radius: 24px;
-    height: 700px;
+    height: 80px;
     width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 2px;
     justify-content: center;
     align-items: center;
+
 }
 .item{
     cursor: pointer;
@@ -44,7 +45,7 @@ body{
     gap: 12px;
 }
 h2{
-    background-color: pink;
+    background-color: #f070a0;
     color: white;
     border-radius: 50%;
     width: 30px;
@@ -57,7 +58,7 @@ h2{
     position: relative;
     left: -250px;
     top: 45px;
-    background-color: pink;
+    background-color: #f070a0;
     padding: 2px 40px;
     border-radius: 10px;
     color: white
