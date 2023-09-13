@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
+    height: 40vh;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ body{
 .item{
     cursor: pointer;
     background-color: white;
-    border: 2px solid #0002;
+    border: 2px solid rgba(0, 0, 0, 0.26);
     border-radius: 24px;
     height: 90px;
     width: 450px;
@@ -57,7 +57,8 @@ h2{
 .destinatario{
     position: relative;
     left: -250px;
-    top: 45px;
+   right: -250px;
+    top: 40px;
     background-color: #f070a0;
     padding: 2px 40px;
     border-radius: 10px;
